@@ -1,0 +1,41 @@
+@media print and (orientation: landscape) {
+  figure {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  main {
+    column-count: 2;
+  }
+  footer {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media print and (orientation: portrait) {
+  figure {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  footer {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
